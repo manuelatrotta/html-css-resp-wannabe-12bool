@@ -1,11 +1,17 @@
+/*debug*/
+.debug .container {
+  border: 1px solid red;
+  background: pink;
+}
+.debug .container [class*="col-"] {
+  border: 1px solid #000;
+  height: 300px;
+}
+/*Framework*/
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-/*rebug*/
-.rebug{
-  background-color: pink;
 }
 /*container*/
 .container{
@@ -92,6 +98,10 @@
 .col-offset-11{
   margin-left: calc((100% / 12 ) * 11);
 }
+/* mediaquery col-*/
+@media screen and (max-width: 768px) {
+  .col-xs-1 {
+    width: calc((100% / 12) * 1);
 /*typo*/
 .text-aligne-center{
   text-align: center;

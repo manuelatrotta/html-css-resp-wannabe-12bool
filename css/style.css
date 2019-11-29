@@ -1,0 +1,23 @@
+.container{
+  background-color: pink;
+}
+
+[class*="col-"]{
+  border: 1px solid black;
+  text-align: center;
+  height: 200px;
+  line-height: 200px;
+}
+.nested{
+  width: 100%;
+  height: 100%;
+  background-color: purple;
+  border: 1px solid white;
+}
+[class*="col-"]{
+  padding:4px;
+ }
+.debug{
+  max-height: 100%;
+  border: 1px solid white;
+}

@@ -6,6 +6,14 @@
 .img_h200{
   height: 200px;
 }
+.img_h250{
+  height: 250px;
+}
+.img_circle{
+  padding: 20px;
+  border-radius: 50%;
+  background-color: #3c98bc;
+}
 /*container*/
 .container.color_dae4e8{
   background-color: #dae4e8;

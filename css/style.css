@@ -55,5 +55,31 @@
     font-size: 30px;
     color: red;
     }
+  }
+  @media screen and (max-width: 768px) {
+    .container{
+      background-color: #c1eaad;
+    }
+    .display-none{
+      display: none;
+    }
+    .title_section{
+      font-size: 35px;
+      color: red;
+    }
+    .second-title{
+      margin: 20px;
+      font-size: 25px;
+      text-transform: uppercase;
+      color: green;
+    }
+    .line_height_30_xs{
+      line-height: 30px;
+    }
+    .font_xs_20{
+      font-size: 20px;
+      font-weight: bold;
 
+    }
+    }
   }
